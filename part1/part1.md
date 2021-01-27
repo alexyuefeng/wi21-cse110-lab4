@@ -22,22 +22,22 @@
 
 12.It will return [0,0,0], since finalPrice cannot be changed, each time we push finalPrice we are pushing 0 into the discounted array.
 
-13.
-A.student.name
-B.student["Grad Year"]
-C.student.greeting()
-D.student["Favorite Teacher"].name
-E.student.courseLoad[0]
+13.\
+A.student.name\
+B.student["Grad Year"]\
+C.student.greeting()\
+D.student["Favorite Teacher"].name\
+E.student.courseLoad[0]\
 
-14.
-A.'32', 2 is converted to '2' then it gets concated with '3' to become '32'
-B. 1 , '3' get converted to number 3 then -2 gets 1
-C. 3 , null is converted to 0 by rule.
-D. '3null' , null is converted to string 'null' and concatenated with '3'
-E. 4 , true is converted to 1 by rule then add with 3, 1+3=4.
-F. 0 , false and null both are converted to 0 by rule.
-G. '3undefined' , undefined is converted to a string with the + sign.
-H. NaN, in numeric conversion, undefined will become NaN and any number deal with NaN is NaN.
+14.\
+A.'32', 2 is converted to '2' then it gets concated with '3' to become '32'\
+B. 1 , '3' get converted to number 3 then -2 gets 1\
+C. 3 , null is converted to 0 by rule.\
+D. '3null' , null is converted to string 'null' and concatenated with '3'\
+E. 4 , true is converted to 1 by rule then add with 3, 1+3=4.\
+F. 0 , false and null both are converted to 0 by rule.\
+G. '3undefined' , undefined is converted to a string with the + sign.\
+H. NaN, in numeric conversion, undefined will become NaN and any number deal with NaN is NaN.\
 
 15.
 A.true, '2' becomes number 2 and compare with 1, 2>1 so true
@@ -54,8 +54,8 @@ F.true, since Boolean(2) returns true, true equals to true, it returns true.
 19.The result will be [6,8,10]. First, when the modifyArray gets called, the second parameter callback will take in doSomething, at line 4, when a single element is passed in to the newArr.push(sth..), it will first call the doSomething(array[i], function(x)) it takes the anonymous function x * 2 as a parameter. So if 1 is passed in, it will first call evaluate doSomething 1+2 then be evaluated with the anonymous x * 2. so (1+2) * 2 = 6  
 
 21. 
-1
-4
-3
-2
+1\
+4\
+3\
+2\
 The reason is timer is slower than the other parts of the colde, 2 has 1 second timeout and 3 has 0.
