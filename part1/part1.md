@@ -51,9 +51,10 @@ F.true, since Boolean(2) returns true, true equals to true, it returns true.
 
 17. It will print 'How are you?' because in 2 == true will be evaluated to false then Boolean(2) is true so it will log "how are you?"
 
-19.The result will be [6,8,10]. First, when the modifyArray gets called, the second parameter callback will take in doSomething, at line 4, when a single element is passed in to the newArr.push(sth..), it will first call the doSomething(array[i], function(x)) it takes the anonymous function x * 2 as a parameter. So if 1 is passed in, it will first call evaluate doSomething 1+2 then be evaluated with the anonymous x * 2. so (1+2) * 2 = 6  
+19.\
+The result will be [6,8,10]. First, when the modifyArray gets called, the second parameter callback will take in doSomething, at line 4, when a single element is passed in to the newArr.push(sth..), it will first call the doSomething(array[i], function(x)) it takes the anonymous function x * 2 as a parameter. So if 1 is passed in, it will first call evaluate doSomething 1+2 then be evaluated with the anonymous x * 2. so (1+2) * 2 = 6  
 
-21. 
+21.\
 1\
 4\
 3\
