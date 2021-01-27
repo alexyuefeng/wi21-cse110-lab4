@@ -27,7 +27,7 @@ A.student.name\
 B.student["Grad Year"]\
 C.student.greeting()\
 D.student["Favorite Teacher"].name\
-E.student.courseLoad[0]\
+E.student.courseLoad[0]
 
 14.\
 A.'32', 2 is converted to '2' then it gets concated with '3' to become '32'\
@@ -37,14 +37,14 @@ D. '3null' , null is converted to string 'null' and concatenated with '3'\
 E. 4 , true is converted to 1 by rule then add with 3, 1+3=4.\
 F. 0 , false and null both are converted to 0 by rule.\
 G. '3undefined' , undefined is converted to a string with the + sign.\
-H. NaN, in numeric conversion, undefined will become NaN and any number deal with NaN is NaN.\
+H. NaN, in numeric conversion, undefined will become NaN and any number deal with NaN is NaN.
 
-15.
-A.true, '2' becomes number 2 and compare with 1, 2>1 so true
-B.false, they are treated as strings, in string compraison, JS will compare each char in ordered so '2' < '1' will return false, so it stops there.
-C.true, for comparison with ==, JS will still try to converted two things to the same type 2 is 2 so returns true.
-D.false, === in JS will compare their types first, if the type don't match, return false.
-E.false, true will become 1 by rule, 1 is not equal to 2 so false.
+15.\
+A.true, '2' becomes number 2 and compare with 1, 2>1 so true\
+B.false, they are treated as strings, in string compraison, JS will compare each char in ordered so '2' < '1' will return false, so it stops there.\
+C.true, for comparison with ==, JS will still try to converted two things to the same type 2 is 2 so returns true.\
+D.false, === in JS will compare their types first, if the type don't match, return false.\
+E.false, true will become 1 by rule, 1 is not equal to 2 so false.\
 F.true, since Boolean(2) returns true, true equals to true, it returns true.
 
 16. == checks the equality with type conversion first but === doesn't. == will converts the values to numbers but === won't do the same.
