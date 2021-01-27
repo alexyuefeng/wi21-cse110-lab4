@@ -8,13 +8,13 @@
 
 5.it will show an error because i is not defined outside of its scope; it's using let to declare so it only lives inside of the "for" scope.
 
-6.it will print the last value stored in "discountedPrices" because it's defined in the large function scope.
+6.it will show an error because discuontedPrice is only defined in the "for" scope.
 
 7.it will print the last value stored in the "finalPrice" because finalPrice is declared inside the function scope.
 
 8.It will return [50,100,150]. After all the calculations are done inside the function discountPrices, discounted will become [50,100,150] inside the function scope, then it will just return it to the outter.
 
-9.It will show an error because i is not defined in this scope, i is only defined in the "for" scope.
+9.It will show an error because i is not defined in this scope, i is only defined in the "for" scope with "let".
 
 10.it will show an error since discountedPrice is not defined, the const only lives inside the "for" scope.
 
